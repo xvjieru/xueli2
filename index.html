@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>学生信息</h1>
+    <fieldset style="width: 450px;">
+        <legend style="color:red; font-size: 20px;">学生档案</legend>
+        <form action="#" method="GET" style="line-height:2;">
+            姓名：<br>
+            <input type="text" style="width:420px;" name="name1" placeholder="请输入姓名" autocomplete="off" required/>
+            <font style="color: red;">*</font><br> 学号：
+            <br>
+            <input type="text" style="width:420px;" name="num1" placeholder="请输入学号" autocomplete="off" required/>
+            <font style="color: red;">*</font><br> 手机号码：
+            <br>
+            <input type="tel" style="width:420px;" name="tel1" placeholder="请输入手机号" autocomplete="off" required/>
+            <font style="color: red;">*</font><br> 邮箱地址：
+            <br>
+            <input type="email" style="width:420px;" name="ema1" placeholder="请输入邮箱地址" autocomplete="off" required/>
+            <font style="color: red;">*</font><br> 录取学校：
+            <br>
+            <input type="search" style="width:420px;" name="sch1" list="names" />
+            <datalist id="names">
+                <option>河北师范大学</option>
+                <option>河北科技大学</option>
+                <option>河北农业大学</option>
+                <option>河北经贸大学</option>
+            </datalist> <br> 入学成绩：
+            <br>
+            <input type="text" style="width:420px;" name="grade1" autocomplete="off"><br> 入学时间：
+            <br>
+            <input type="date" style="width:420px;" name="date1"><br>
+            <input type="submit" style="width:420px;">
+        </form>
+    </fieldset>
+</body>
+
+</html>
